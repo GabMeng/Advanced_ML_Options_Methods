@@ -6,7 +6,7 @@ This project implements European option pricing using the Heston stochastic vola
 
 * Implements **Heston model pricing** via Fourier inversion using characteristic functions
 * Supports **Latin Hypercube Sampling (LHS)** for synthetic data generation
-* Uses **PCA (Principal Component Analysis)** to compress implied volatility surfaces and identify their key drivers and detect "fake" ones wit a z-score approach
+* Uses **PCA (Principal Component Analysis)** to compress implied volatility surfaces and identify their key drivers and detect "fake" ones with a z-score approach
 * Trains an **autoencoder** to reconstruct real implied volatility surfaces and detect "fake" or anomalous ones making use of reconstruction error
 
 ---
